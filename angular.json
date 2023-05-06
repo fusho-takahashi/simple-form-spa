@@ -119,6 +119,16 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "simple-form-spa:build:production",
+            "firebaseProject": "simple-form-spa",
+            "firebaseHostingSite": "simple-form-spa"
+          }
         }
       }
     }

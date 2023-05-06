@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "simple-form-spa": {
+      "hosting": {
+        "simple-form-spa": [
+          "simple-form-spa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "simple-form-spa"
+  }
+}
